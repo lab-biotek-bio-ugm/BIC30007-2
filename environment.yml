@@ -1,0 +1,10 @@
+name: modul7
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - scikit-learn
