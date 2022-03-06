@@ -1,0 +1,10 @@
+name: bic30007-2022-acara7
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - scikit-learn
