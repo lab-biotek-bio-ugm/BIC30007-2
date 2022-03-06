@@ -1,6 +1,7 @@
-name: modul7
+name: bic30007-2022
 channels:
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
   - pandas
@@ -8,3 +9,6 @@ dependencies:
   - seaborn
   - matplotlib
   - scikit-learn
+  - biopython
+  - emboss
+  - jupyterlab
