@@ -31,3 +31,14 @@ Activate the environment via:
 Then start Jupyter Lab:
 
     jupyter lab
+
+## Using Google Colaboratory
+The best way to run this course repository on google colab is via Google Drive.
+
+- Find the latest release from: https://github.com/lab-biotek-bio-ugm/BIC30007-2/releases
+- Go to the `Assets` and download the source code (either `zip` or `tar.gz`)
+- Unzip (or untar) the source code in your local machine (laptop)
+- Upload the whole directory to Google drive
+- See instructions on each modules:
+    - [Modul 2](acara_02/)
+    - [Modul 7](acara_07/)
