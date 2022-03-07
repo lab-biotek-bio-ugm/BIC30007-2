@@ -29,7 +29,9 @@ condacolab.check()
 # mount drive
 from google.colab import drive
 drive.mount('/content/drive')
-
+```
+- Install dependencies
+```python
 # assume you have uploaded the repo to gdrive
 !mamba env update -n base -f /content/drive/MyDrive/<your downloaded release name>/acara_02/environment.yml
 ```
