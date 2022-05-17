@@ -2,6 +2,7 @@
 # BIC30007-2
 Modul Praktikum Bioinformatika 2022 - Fakultas Biologi UGM.
 - [Modul 2](acara_02/)
+- [Modul 6](acara_06/)
 - [Modul 7](acara_07/)
 
 ## Usage
@@ -41,4 +42,5 @@ The best way to run this course repository on google colab is via Google Drive.
 - Upload the whole directory to Google drive
 - See instructions on each modules:
     - [Modul 2](acara_02/)
+    - [Modul 6](acara_06/)
     - [Modul 7](acara_07/)
