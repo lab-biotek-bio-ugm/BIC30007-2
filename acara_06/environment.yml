@@ -1,0 +1,8 @@
+name: bic30007-2022-acara2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - biopython
+  - emboss
