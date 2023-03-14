@@ -30,7 +30,6 @@ condacolab.check()
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-
 - Install dependencies
 ```python
 # assume you have uploaded the repo to gdrive
