@@ -45,6 +45,7 @@ from Bio import SeqIO
 from pathlib import Path
 ```
 
+
 - Lanjut ke bagian pengaturan folder input dan output, ganti `data_dir` sesuai path yang ada di colab. Contoh untuk notebook 02.1:
 ```python
 # Set up paths
