@@ -1,0 +1,95 @@
+LOCUS       XP_001656178             215 aa            linear   INV 13-SEP-2007
+DEFINITION  frataxin, putative [Aedes aegypti].
+ACCESSION   XP_001656178
+VERSION     XP_001656178.1  GI:157133106
+DBSOURCE    REFSEQ: accession XM_001656128.1
+KEYWORDS    .
+SOURCE      Aedes aegypti (Stegomyia aegypti)
+  ORGANISM  Aedes aegypti
+            Eukaryota; Metazoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+            Neoptera; Endopterygota; Diptera; Nematocera; Culicoidea;
+            Culicidae; Culicinae; Culicini; Aedes; Stegomyia.
+REFERENCE   1  (residues 1 to 215)
+  AUTHORS   Nene,V., Wortman,J.R., Lawson,D., Haas,B., Kodira,C., Tu,Z.J.,
+            Loftus,B., Xi,Z., Megy,K., Grabherr,M., Ren,Q., Zdobnov,E.M.,
+            Lobo,N.F., Campbell,K.S., Brown,S.E., Bonaldo,M.F., Zhu,J.,
+            Sinkins,S.P., Hogenkamp,D.G., Amedo,P., Arsenburger,P.,
+            Atkinson,P.W., Bidwell,S., Biedler,J., Birney,E., Bruggner,R.V.,
+            Costas,J., Coy,M.R., Crabtree,J., Crawford,M., Debruyn,B.,
+            Decaprio,D., Eiglmeier,K., Eisenstadt,E., El-Dorry,H.,
+            Gelbart,W.M., Gomes,S.L., Hammond,M., Hannick,L.I., Hogan,J.R.,
+            Holmes,M.H., Jaffe,D., Johnston,S.J., Kennedy,R.C., Koo,H.,
+            Kravitz,S., Kriventseva,E.V., Kulp,D., Labutti,K., Lee,E., Li,S.,
+            Lovin,D.D., Mao,C., Mauceli,E., Menck,C.F., Miller,J.R.,
+            Montgomery,P., Mori,A., Nascimento,A.L., Naveira,H.F., Nusbaum,C.,
+            O'Leary,S.B., Orvis,J., Pertea,M., Quesneville,H., Reidenbach,K.R.,
+            Rogers,Y.H., Roth,C.W., Schneider,J.R., Schatz,M., Shumway,M.,
+            Stanke,M., Stinson,E.O., Tubio,J.M., Vanzee,J.P.,
+            Verjovski-Almeida,S., Werner,D., White,O., Wyder,S., Zeng,Q.,
+            Zhao,Q., Zhao,Y., Hill,C.A., Raikhel,A.S., Soares,M.B.,
+            Knudson,D.L., Lee,N.H., Galagan,J., Salzberg,S.L., Paulsen,I.T.,
+            Dimopoulos,G., Collins,F.H., Bruce,B., Fraser-Liggett,C.M. and
+            Severson,D.W.
+  TITLE     Genome Sequence of Aedes aegypti, a Major Arbovirus Vector
+  JOURNAL   Science 316 (5832), 1718-1723 (2007)
+   PUBMED   17510324
+REFERENCE   2  (residues 1 to 215)
+  AUTHORS   Galagan,J., Devon,K., Henn,M.R., Severson,D.W., Collins,F.,
+            Jaffe,D., Rounsley,S., DeCaprio,D., Kodira,C., Lander,E.,
+            Crawford,M., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M.,
+            Kleber,M., Mauceli,E., Brockman,W., Young,S., LaButti,K.,
+            Pushparaj,V., Koehrsen,M., Engels,R., Montgomery,P., Pearson,M.,
+            Howarth,C., Zeng,Q., Yandava,C., Oleary,S., Alvarado,L., Nusbaum,C.
+            and Birren,B.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02141, USA
+REFERENCE   3  (residues 1 to 215)
+  AUTHORS   Loftus,B.J., Nene,V.M., Hannick,L.I., Bidwell,S., Haas,B.,
+            Amedeo,P., Orvis,J., Wortman,J.R., White,O.R., Salzberg,S.,
+            Shumway,M., Koo,H., Zhao,Y., Holmes,M., Miller,J., Schatz,M.,
+            Pop,M., Pai,G., Utterback,T., Rogers,Y.-H., Kravitz,S. and
+            Fraser,C.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockville, MD 20850, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EAT45831.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..215
+                     /organism="Aedes aegypti"
+                     /strain="Liverpool"
+                     /db_xref="taxon:7159"
+                     /chromosome="2"
+     Protein         1..215
+                     /product="frataxin, putative"
+                     /calculated_mol_wt=24309
+     Region          87..204
+                     /region_name="Frataxin"
+                     /note="Frataxin is a nuclear-encoded mitochondrial protein
+                     implicated in Friedreich's ataxia (FRDA), an human
+                     autosomal recessive neurodegenerative disease; Frataxin is
+                     found in eukaryotes and in purple bacteria; lack of
+                     frataxin causes iron to accumulate in the; cd00503"
+                     /db_xref="CDD:29607"
+     Site            order(89,97..98,101,105,108..109,115,121)
+                     /site_type="other"
+                     /note="putative iron binding site"
+                     /db_xref="CDD:29607"
+     CDS             1..215
+                     /locus_tag="AaeL_AAEL002948"
+                     /coded_by="XM_001656128.1:1..648"
+                     /note="encoded by transcript AaeL_AAEL002948-RA"
+                     /db_xref="VectorBase:AAEL002948-RA"
+                     /db_xref="GeneID:5576595"
+                     /db_xref="VectorBase:AAEL002948"
+ORIGIN      
+        1 mkrqkikaaq kqlfslyhat tmsllvsafq rgvrrlprcv svihqtcpes ahqplpggit
+       61 verrvnpifr rhlssmnpnd fiavslidsi tfeavcsdtl eslcdyfeql veeaaflksa
+      121 ditygdgvlt vnfgepygty vinrqspnrq iwlsspksgp krydfipdks kvnegfwlyk
+      181 hdgvslhell qkeigvivqk evdflslphs krldn
+//
+
+

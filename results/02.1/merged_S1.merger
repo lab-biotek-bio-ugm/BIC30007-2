@@ -1,0 +1,110 @@
+########################################
+# Program: merger
+# Rundate: Fri 10 Mar 2023 21:34:59
+# Commandline: merger
+#    [-asequence] results/02.1/3766078_S1_F.fasta
+#    [-bsequence] results/02.1/3766079_S1_R.fasta
+#    -sreverse2
+#    -outseq results/02.1/merged_S1.fasta
+#    -outfile results/02.1/merged_S1.merger
+# Align_format: simple
+# Report_file: results/02.1/merged_S1.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 3766078_S1_F
+# 2: 3766079_S1_R
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 701
+# Identity:     640/701 (91.3%)
+# Similarity:   640/701 (91.3%)
+# Gaps:          52/701 ( 7.4%)
+# Score: 3064.0
+# 
+#
+#=======================================
+
+3766078_S1_F       1 -----------------------------ctttacttatcttaggggcat     21
+                                                  ..|...|||||||||||||||
+3766079_S1_R     678 tcaaccaaaacataaagatattggtactttatactttatcttaggggcat    629
+
+3766078_S1_F      22 gatcaggaatagtaggtactgctcttagtttaatcattcgagccgaatta     71
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     628 gatcaggaatagtaggtactgctcttagtttaatcattcgagccgaatta    579
+
+3766078_S1_F      72 gggcaacccggtaggttaattggagatgatcaaatttataatgttattgt    121
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     578 gggcaacccggtaggttaattggagatgatcaaatttataatgttattgt    529
+
+3766078_S1_F     122 cacagcccacgcctttattataattttttttatggtaataccaattataa    171
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     528 cacagcccacgcctttattataattttttttatggtaataccaattataa    479
+
+3766078_S1_F     172 ttggaggtttcggaaactgattagttcccttgatattgggggccccagat    221
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     478 ttggaggtttcggaaactgattagttcccttgatattgggggccccagat    429
+
+3766078_S1_F     222 atagccttcccacgaataaataatataagattttggttactacccccagc    271
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     428 atagccttcccacgaataaataatataagattttggttactacccccagc    379
+
+3766078_S1_F     272 tctcacacttcttttatcaagaggtctagtagaaagaggagttgggaccg    321
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     378 tctcacacttcttttatcaagaggtctagtagaaagaggagttgggaccg    329
+
+3766078_S1_F     322 gatgaaccgtttatcccccactatctgctggaatcgcacacgcaggggct    371
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     328 gatgaaccgtttatcccccactatctgctggaatcgcacacgcaggggct    279
+
+3766078_S1_F     372 tcagtagatatgggtattttttctctacacctagccggagcttcatctat    421
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     278 tcagtagatatgggtattttttctctacacctagccggagcttcatctat    229
+
+3766078_S1_F     422 cttaggagctgtaaattttattacaaccgtaattaatatacgatccaacg    471
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     228 cttaggagctgtaaattttattacaaccgtaattaatatacgatccaacg    179
+
+3766078_S1_F     472 gaataactatagaccgtatacctctattcgtgtgggctgtttttattaca    521
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     178 gaataactatagaccgtatacctctattcgtgtgggctgtttttattaca    129
+
+3766078_S1_F     522 gcaattttattacttttatctttacctgtattagcaggagctattacaat    571
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3766079_S1_R     128 gcaattttattacttttatctttacctgtattagcaggagctattacaat     79
+
+3766078_S1_F     572 gctacttacagaccgtaatttaaatacctctttttttgacccggctgggg    621
+                     |||||||||||||||||||||||||||||| |||||||||||||||||||
+3766079_S1_R      78 gctacttacagaccgtaatttaaatacctc-ttttttgacccggctgggg     30
+
+3766078_S1_F     622 gtggagatcctgttttatatcaacacttattttgattttttggtcacctg    671
+                     ||||||||||...||||| |||||||||.|                    
+3766079_S1_R      29 gtggagatccctgtttat-tcaacactttt--------------------      1
+
+3766078_S1_F     672 g    672
+                      
+3766079_S1_R       0 -      1
+
+
+#---------------------------------------
+#
+# Conflicts:    3766078_S1_F    3766079_S1_R
+#              position base   position base Using
+#                     1  'c'         30  'T'   'T'
+#                     2  't'         31  'A'   'A'
+#                     4  't'         33  'A'   'A'
+#                     5  'a'         34  'C'   'C'
+#                     6  'c'         35  'T'   'T'
+#                   602  'T'        631  '.'   'T'
+#                   632  'T'        660  'c'   'T'
+#                   633  'G'        661  't'   'G'
+#                   634  'T'        662  'g'   'T'
+#                   640  'A'        668  '.'   'A'
+#                   650  'A'        677  't'   'A'
+# 
+#
+#---------------------------------------
